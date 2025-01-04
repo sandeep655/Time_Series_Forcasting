@@ -1,8 +1,12 @@
 # Flask API Implementation
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 import pickle
 
 app = Flask(__name__)
+
+# Enable CORS for all routes
+CORS(app)
 
 # Load the saved Prophet model at the start of the app
 # with open('FurnitureSalesForecast/notebook/prophet_model.pkl', 'rb') as f:
