@@ -100,4 +100,5 @@ with tab2:
     profile = generate_eda_report(dataset)
 
     # Display the profiling report
-    st_profile_report(profile)
+    # Render the report in Streamlit
+    st.components.v1.html(profile.to_html(), width=1000, height=600, scrolling=True)
