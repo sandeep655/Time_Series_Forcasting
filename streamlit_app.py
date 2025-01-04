@@ -5,7 +5,7 @@ import time
 import requests
 import matplotlib.pyplot as plt
 from ydata_profiling import ProfileReport
-from streamlit_pandas_profiling import st_profile_report
+#from streamlit_pandas_profiling import st_profile_report
 
 # Load default dataset for EDA
 #DEFAULT_DATASET_PATH = '/Users/sandeepkumar/NCI/AI/Moodle/Programming_For_AI/CA/CA-2-Final/FurnitureSalesForecast/notebook/cleaned_super_store_data.csv'
