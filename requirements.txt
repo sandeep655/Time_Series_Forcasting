@@ -4,4 +4,3 @@ pandas
 requests
 matplotlib
 ydata-profiling
-streamlit-pandas-profiling
