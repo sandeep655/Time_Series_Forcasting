@@ -1,6 +1,7 @@
 gunicorn
 prophet
 Flask
+flask-cors
 streamlit
 pandas
 requests
